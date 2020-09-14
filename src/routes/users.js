@@ -4,7 +4,7 @@ const controller = require("../controllers/users");
 
 const routeName = "/users";
 
-router.post(routeName, controller.create);
+// router.post(routeName, controller.create);
 
 router.post(`${routeName}/login`, controller.login);
 
